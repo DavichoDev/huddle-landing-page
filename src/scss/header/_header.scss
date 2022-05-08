@@ -1,0 +1,18 @@
+@use 'base/variables' as v; 
+@use 'base/mixins' as m; 
+
+.header {
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 2rem;
+        .logo {
+            width: 10rem;
+        }
+        .button {
+            font-size: 1.2rem;
+            padding: .5rem 2rem;
+        }
+    }
+}

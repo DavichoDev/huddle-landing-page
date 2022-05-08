@@ -1,0 +1,15 @@
+@use 'variables'as v;
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primario {
+    background-color: v.$primario;
+}
+.button {
+    font-weight: 400;
+    color: v.$lightPink;
+    border: 1px solid v.$lightPink;
+    border-radius: 3rem;
+}
