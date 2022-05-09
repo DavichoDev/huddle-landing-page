@@ -9,7 +9,7 @@
         @include m.desktop {
             display: flex;
             flex-direction: row-reverse;
-            justify-content: space-between;
+            justify-content: space-around;
             padding: 8rem 0;
         }
         .contact-footer {
